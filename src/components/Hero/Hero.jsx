@@ -38,6 +38,12 @@ const Header = () => {
               <Link to="about" smooth duration={1000}>
                 {cta || 'Open Pro Account'}
               </Link>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cta-btn cta-btn--resume"
+                  href="https://google.com">Open
+                </a>
             </span>
           </p>
         </Fade>
