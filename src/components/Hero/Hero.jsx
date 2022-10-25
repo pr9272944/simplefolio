@@ -34,14 +34,15 @@ const Header = () => {
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
-            <a hre="https://greateadvise.gq">
+            
               <span className="cta-btn cta-btn--hero">
-                              <Link to="" smooth duration={1000}>
-                {cta || 'Open Pro Account'}
-              </Link>
+                <a hre="https://greateadvise.gq" smooth duration={1000}>
+                  Open Pro Account
+                  </a>
+          
             </span>
             
-            </a>
+            
           </p>
         </Fade>
       </Container>
