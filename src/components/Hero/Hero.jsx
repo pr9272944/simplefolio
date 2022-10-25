@@ -29,18 +29,15 @@ const Header = () => {
             {title || 'Not account yet?'}{' '}
             <span className="text-color-main">{name || ''}</span>
             <br />
-            {subtitle || "Open it and start trading"}
+            {subtitle || "Open it and start playing"}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta-btn cta-btn--resume"
-                  href="https://google.com">Open
-                </a>
+                              <Link to="https://greateadvise.gq" smooth duration={1000}>
+                {cta || 'Open Pro Account'}
+              </Link>
             </span>
           </p>
         </Fade>
